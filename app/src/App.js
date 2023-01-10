@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import useInput from "./hooks/useInput";
 
 const App = () => {
   const username = useInput("");
